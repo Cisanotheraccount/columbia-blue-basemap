@@ -14,7 +14,7 @@ Drag or zoom the map, switch between the three campus views and the overview, sa
 
 [Tutorial 8.2](https://designpractices.org/tutorials/09-interactive-mapping-part-2/) additionally asks for a public map, a repository link, and two example data layers. This basemap preview does not yet include those layers.
 
-The `style.json` in this repository is the reviewed Maputnik style, preserved without alteration. It can be opened in [Maputnik](https://maplibre.org/maputnik/) to adjust the layers, colors and labels.
+The `style.json` in this repository is the reviewed Maputnik style, kept in sync with the local course deliverable. It can be opened in [Maputnik](https://maplibre.org/maputnik/) to adjust the layers, colors and labels.
 
 ## Design and data
 
