@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#B9D9EB">
+  <meta name="description" content="A Columbia-blue campus basemap of Morningside, Manhattanville and Columbia University Irving Medical Center, by Ci Song.">
+  <title>Columbia Blue — Campus Basemap</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/maplibre-gl.css">
+  <link rel="stylesheet" href="map.css">
+  <script defer src="assets/maplibre-gl.js"></script>
+  <script defer src="map.js"></script>
+</head>
+<body>
+  <header>
+    <nav aria-label="Campus views">
+      <button type="button" data-view="morningside" aria-pressed="true">Morningside</button>
+      <button type="button" data-view="manhattanville" aria-pressed="false">Manhattanville</button>
+      <button type="button" data-view="cuimc" aria-pressed="false">CUIMC</button>
+      <button type="button" data-view="overview" aria-pressed="false">Overview</button>
+    </nav>
+    <div class="downloads">
+      <button type="button" id="save-image">Save image</button>
+      <a href="style.json" download="style.json">Download style</a>
+    </div>
+  </header>
+  <main id="map" aria-label="Interactive Columbia campus basemap"></main>
+  <p id="status" role="status" aria-live="polite">Loading map…</p>
+  <noscript>This interactive map needs JavaScript. The <a href="style.json">map style file</a> is also available to download.</noscript>
+</body>
+</html>
